@@ -184,7 +184,7 @@ padding-bottom: 15px;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
   border: 1px solid #cce7d0;
-  border-radius: 4px;
+  border-radius: 10px;
   margin: 15px 0;
 }
 #feature .fe-box:hover{
@@ -195,6 +195,7 @@ padding-bottom: 15px;
 #feature .fe-box img{
   width: 100%;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 #feature .fe-box h6{
@@ -699,7 +700,7 @@ transition: 0.3s;
 }
 #contact-details .details h3{
   font-size: 16px;
-  padding-bottom: 15px;
+  padding-bottom: 15px; 
 }
 #contact-details .details li{
   list-style: none;
@@ -885,6 +886,11 @@ transition: 0.3s;
 #form-details h5{
   padding-top: 20px;
 }
+
+.btn{
+   
+}
+
 /* Media Query For Medium Screen Device*/
 
 @media(max-width:799px) {
@@ -982,6 +988,7 @@ transition: 0.3s;
 }
 
 /* Media Query For Small Screen Device*/
+
 
 @media(max-width: 477px){
   .section-p1{
