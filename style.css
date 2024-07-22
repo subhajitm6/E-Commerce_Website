@@ -61,6 +61,11 @@ button.normal{
   transition: 0.2s;
 }
 
+.signup{
+  color: white;
+  text-decoration: none;
+}
+
 
 button.white{
   font-size: 13px;
